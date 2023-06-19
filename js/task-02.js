@@ -9,7 +9,7 @@ const ingredients = [
 
 const liArray = [];
 
-const ulElement = document.querySelector("ingredients");
+const ulElement = document.querySelector("#ingredients");
 ingredients.forEach((ingredient) => {
   const liElement = document.createElement("li");
   liElement.classList.add("item");

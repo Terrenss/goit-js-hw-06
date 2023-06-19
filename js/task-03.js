@@ -17,7 +17,7 @@ const list = document.querySelector(".gallery");
 const imagesWithTags = images
   .map(
     (image) =>
-      `<li class='gallery_item'><img class='galerry_photo' src='${image.url}' alt='${image.alt}'></li>`
+      `<li class='gallery_item'><img class='galerry_photo' src='${image.url}' alt='${image.alt}' style='height: 190px; width: 320px;'></li>`
   )
   .join("");
 
